@@ -8,10 +8,10 @@ import pika, json
 
 
 def consume():
-    credentials = pika.credentials.PlainCredentials(username='quzulkbp', password='pEJ3Ssn5ev6Hs32zQYyEqb04AC6xCp98')
+    credentials = pika.credentials.PlainCredentials(username='dhradflj', password='1gzwBw5slv45DEDYBcaN-77z51b8d1Mg')
     parameters = pika.ConnectionParameters(
-        host='puffin.rmq2.cloudamqp.com',
-        virtual_host='quzulkbp',
+        host='fly.rmq.cloudamqp.com',
+        virtual_host='dhradflj',
         credentials=credentials,
         heartbeat=600,
         blocked_connection_timeout=300

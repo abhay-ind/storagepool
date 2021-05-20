@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-%2+ou8stlah%h7$)xi_@&mir#c&7mk$o0#4a9sxh$nx37)l(jd
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['puffin.rmq2.cloudamqp.com','localhost','abhaya.mysql.pythonanywhere-services.com']
+ALLOWED_HOSTS = ['fly.rmq.cloudamqp.com','localhost','abhaya.mysql.pythonanywhere-services.com']
 
 
 # Application definition
