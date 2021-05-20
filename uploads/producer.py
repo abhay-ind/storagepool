@@ -1,7 +1,7 @@
 import pika, json
 
 
-params = pika.URLParameters('amqps://quzulkbp:pEJ3Ssn5ev6Hs32zQYyEqb04AC6xCp98@puffin.rmq2.cloudamqp.com/quzulkbp')
+params = pika.URLParameters('amqps://dhradflj:1gzwBw5slv45DEDYBcaN-77z51b8d1Mg@fly.rmq.cloudamqp.com/dhradflj')
 
 connection = pika.BlockingConnection(params)
 
