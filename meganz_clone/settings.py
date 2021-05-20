@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-%2+ou8stlah%h7$)xi_@&mir#c&7mk$o0#4a9sxh$nx37)l(jd
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['puffin.rmq2.cloudamqp.com','localhost']
+ALLOWED_HOSTS = ['puffin.rmq2.cloudamqp.com','localhost','abhaya.mysql.pythonanywhere-services.com']
 
 
 # Application definition
@@ -83,10 +83,10 @@ WSGI_APPLICATION = 'meganz_clone.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'filez',
-        'USER': 'root',
-        'PASSWORD': 'Oxyfy@2021',
-        'HOST': 'localhost',
+        'NAME': 'abhaya$storage',
+        'USER': 'abhaya',
+        'PASSWORD': 'Storage@2021',
+        'HOST': 'abhaya.mysql.pythonanywhere-services.com',
         'PORT': '3306'
     }
 }
